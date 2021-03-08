@@ -10,7 +10,8 @@ const TinyURL = require('tinyurl');
 const db = mongoose.createConnection(process.env.DB_URI, { useNewUrlParser: true, useUnifiedTopology: true });
 
 // Basic Configuration
-const port = 3000;
+const port = process.env.PORT || 3000;
+
 const urlSchema = new Schema({
   longUrl: String, // String is shorthand for {type: String}
   shortUrl: String,
