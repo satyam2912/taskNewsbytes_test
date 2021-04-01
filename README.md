@@ -1,1 +1,4 @@
-# [URL Shortener Microservice](https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/url-shortener-microservice)
+# [URL Shortener Microservice]
+
+Architecture choice and reason behind it - Currently my hannds on are on these technologies and it can easily solve the problem statement
+
